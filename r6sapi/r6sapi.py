@@ -232,6 +232,8 @@ OperatorStatisticNames = {
     "MAESTRO": "Enemies spotted with turret camera",
     "MAVERICK": "D.I.Y. Blowtorch",
     "CLASH": "CCE Shield",
+    "KAID": "Rtila Electroclaw",
+    "NOMAD": "Airjab repulsion grenades",
 }
 
 
