@@ -567,7 +567,7 @@ class Auth:
         if self._op_definitions is not None:
             return self._op_definitions
 
-        resp = yield from self.session.get("https://game-rainbow6.ubi.com/assets/data/operators.682af7ce0969c4e.json")
+        resp = yield from self.session.get("https://game-rainbow6.ubi.com/assets/data/operators.bbbf29a090.json")
 
         data = yield from resp.json()
         self._op_definitions = data
